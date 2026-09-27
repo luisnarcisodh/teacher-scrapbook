@@ -40,7 +40,8 @@ const COLLAGE_PHOTOS = [
   },
 ];
 
-export function ThankYouSection({ schoolName = "Class of 2026" }: { schoolName?: string }) {
+// Inayos natin ang () sa itaas para mawala ang TS6133 error
+export function ThankYouSection({}: { schoolName?: string }) {
   return (
     <section
       style={{
@@ -208,9 +209,7 @@ export function ThankYouSection({ schoolName = "Class of 2026" }: { schoolName?:
                   flexShrink: 0,
                 }}
               >
-                <div
-                  style={{ position: "relative", paddingTop: "20px" }}
-                >
+                <div style={{ position: "relative", paddingTop: "20px" }}>
                   <MaskingTape
                     color={index % 2 === 0 ? "rgba(196, 176, 120, 0.5)" : "rgba(168, 200, 228, 0.5)"}
                     width={58}
