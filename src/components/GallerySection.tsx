@@ -86,8 +86,8 @@ export function GallerySection() {
                 marginBottom: 0,
               }}
             >
-              Fragments of<br />
-              <span style={{ color: "#2A5F8F" }}>Time Together.</span>
+              Moments<br />
+              <span style={{ color: "#2A5F8F" }}>in Time</span>
             </h2>
           </div>
         </FadeIn>

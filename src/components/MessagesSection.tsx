@@ -8,7 +8,7 @@ const MESSAGES = [
     name: "Anne Stephanne Buenaflor",
     year: "3rd Year, BS Information Systems",
     message:
-      "Thank you for always making time even after class. You didn't just teach — you listened.",
+      "Thank you for always guiding our spiritual growth.",
     color: "rgba(168, 200, 228, 0.15)",
     rotation: -1.5,
   },
@@ -17,7 +17,7 @@ const MESSAGES = [
     name: "Luis Narciso Huevos",
     year: "3rd Year, BS Information Systems",
     message:
-      "Prof, your problem sets were brutal — but they made me who I am today. Worth every sleepless night.",
+      "Thank you for the inspiring stories and lessons in class every day!",
     color: "rgba(200, 220, 200, 0.15)",
     rotation: 1,
   },
@@ -26,7 +26,7 @@ const MESSAGES = [
     name: "Denmark Bartolome",
     year: "3rd Year, BS Information Systems",
     message:
-      "You made me fall in love with reading again. Your passion for stories is truly contagious.",
+      "Thank you for using your profession to bring us closer to God. Happy Teacher's Day!",
     color: "rgba(220, 200, 190, 0.15)",
     rotation: -0.5,
   },
@@ -35,7 +35,7 @@ const MESSAGES = [
     name: "Leander Dylan Bronola",
     year: "3rd Year, BS Information Systems",
     message:
-      "I almost dropped the course in week 2. You talked me out of it. Best decision of my life.",
+      "Thank you for being such a huge blessing to our class. We appreciate you!",
     color: "rgba(190, 200, 220, 0.15)",
     rotation: 2,
   },
@@ -44,7 +44,7 @@ const MESSAGES = [
     name: "Jaden Calimlim",
     year: "3rd Year, BS Information Systems",
     message:
-      "Every Socratic session with you felt like a workout for my mind. I'm stronger for it.",
+      "Happy Teacher's Day! May God continue to bless your life and your teaching ministry.",
     color: "rgba(210, 195, 220, 0.15)",
     rotation: -1,
   },
@@ -53,7 +53,7 @@ const MESSAGES = [
     name: "Karl Ashton Mahusay",
     year: "3rd Year, BS Information Systems",
     message:
-      "Being new is scary. But you made the classroom feel like a safe place to be wrong and learn.",
+      "We learn so much from you, not just in our minds, but in our hearts. Thank you!",
     color: "rgba(195, 215, 225, 0.15)",
     rotation: 1.5,
   },
@@ -62,7 +62,7 @@ const MESSAGES = [
     name: "Samuel Binos",
     year: "3rd Year, BS Information Systems",
     message:
-      "You were the first person who told me my designs had a voice. I'll never forget that.",
+      "Happy Teacher's Day! We highly appreciate your wisdom, kindness, and patience.",
     color: "rgba(225, 210, 195, 0.15)",
     rotation: -2,
   },
@@ -71,7 +71,7 @@ const MESSAGES = [
     name: "Rancel Joy Cuervo",
     year: "3rd Year, BS Information Systems",
     message:
-      "Your lectures didn't just teach history — they helped me understand the present. Thank you.",
+      "Thank you for always teaching with a kind heart. Praying for your good health always!",
     color: "rgba(200, 210, 200, 0.15)",
     rotation: 0.5,
   },
@@ -80,7 +80,7 @@ const MESSAGES = [
     name: "Shanne Bumanlag",
     year: "3rd Year, BS Information Systems",
     message:
-      "I never thought I'd say this about math, but I look forward to your class every single week.",
+      "Thank you for your endless reminders to do good. Happy Teacher's Day!",
     color: "rgba(215, 205, 225, 0.15)",
     rotation: -1.5,
   },
@@ -89,7 +89,7 @@ const MESSAGES = [
     name: "Ydrey Ann Ramirez",
     year: "3rd Year, BS Information Systems",
     message:
-      "I never thought I'd say this about math, but I look forward to your class every single week.",
+      "You are an amazing instrument of God’s word for us students. Happy Teacher's Day!",
     color: "rgba(215, 205, 225, 0.15)",
     rotation: -1.5,
   },
@@ -98,7 +98,7 @@ const MESSAGES = [
     name: "Maynard Villar",
     year: "3rd Year, BS Information Systems",
     message:
-      "I never thought I'd say this about math, but I look forward to your class every single week.",
+      "Thank you for sharing God's light and love with our class. Wishing you a truly blessed Teacher's Day!",
     color: "rgba(215, 205, 225, 0.15)",
     rotation: -1.5,
   },

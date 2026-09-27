@@ -73,7 +73,7 @@ export function HeroSection({
                   marginBottom: "20px",
                 }}
               >
-                ✦ September 2026
+              
               </span>
             </motion.div>
 
@@ -274,7 +274,7 @@ export function HeroSection({
                   pointerEvents: "none",
                 }}
               >
-                sept 2026
+               
               </div>
             </motion.div>
           </div>
