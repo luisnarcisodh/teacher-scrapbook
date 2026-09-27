@@ -1,7 +1,5 @@
 import { FadeIn, PolaroidFrame, MaskingTape, SectionLabel, useIsMobile } from "./shared";
 
-const INTRO_IMG =
-  "https://images.unsplash.com/photo-1512238972088-8acb84db0771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800";
 
 export function IntroSection() {
   const isMobile = useIsMobile();

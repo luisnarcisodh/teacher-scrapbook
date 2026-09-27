@@ -1,8 +1,6 @@
 import { motion } from "motion/react";
-import { ImageWithFallback, GlassCard, FadeIn, SectionLabel, useIsMobile } from "./shared";
+import { ImageWithFallback,  FadeIn,  useIsMobile } from "./shared";
 
-const LESSON_IMG =
-  "https://images.unsplash.com/photo-1512238972088-8acb84db0771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=900";
 
 const QUOTES = [
   {

@@ -1,8 +1,6 @@
 import { motion } from "motion/react";
 import { ImageWithFallback, GlassCard, MaskingTape, useIsMobile } from "./shared";
 
-const HERO_IMG =
-  "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200";
 
 export function HeroSection({
   heroTeacherName = "Our Beloved Teachers",

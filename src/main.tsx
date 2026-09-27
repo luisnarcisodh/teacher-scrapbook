@@ -24,13 +24,11 @@ function TeachersDayScrapbook({
     src: "/src/assets/one.jpg",
   },
   schoolName = "BSIS 3",
-  showTimeline = true,
 }: {
   teacherName?: string;
   teacherSubject?: string;
   teacherPhoto?: ImageProp;
   schoolName?: string;
-  showTimeline?: boolean;
 }) {
   // Inject Google Fonts (Caveat for handwritten feel)
   useEffect(() => {
@@ -86,7 +84,7 @@ function TeachersDayScrapbook({
 
 
       {/* 8 — Thank You */}
-      <ThankYouSection schoolName={schoolName} teacherName={teacherName} />
+      <ThankYouSection schoolName="{schoolName}"/>
 
       {/* 9 — Footer */}
       <FooterSection schoolName={schoolName} />

@@ -1,11 +1,12 @@
 import { motion } from "motion/react";
-import { ImageWithFallback, GlassCard, PolaroidFrame, MaskingTape, FadeIn } from "./shared";
+import { GlassCard, PolaroidFrame, MaskingTape, FadeIn } from "./shared";
 
 const COLLAGE_PHOTOS = [
   {
     id: 1,
     src: "/src/assets/four.jpg",
     alt: "University lecture",
+    caption: "",
     rotation: -4,
     width: 180,
     imageHeight: 140,
@@ -14,6 +15,7 @@ const COLLAGE_PHOTOS = [
     id: 2,
     src: "/src/assets/five.jpg",
     alt: "Graduation ceremony",
+    caption: "",
     rotation: 3,
     width: 200,
     imageHeight: 155,
@@ -22,6 +24,7 @@ const COLLAGE_PHOTOS = [
     id: 3,
     src: "/src/assets/six.jpg",
     alt: "Students group photo",
+    caption: "",
     rotation: -2,
     width: 190,
     imageHeight: 148,
@@ -30,6 +33,7 @@ const COLLAGE_PHOTOS = [
     id: 4,
     src: "/src/assets/ten.jpg",
     alt: "Campus life",
+    caption: "",
     rotation: 4,
     width: 175,
     imageHeight: 135,
@@ -119,7 +123,7 @@ export function ThankYouSection({ schoolName = "Class of 2026" }: { schoolName?:
                 marginBottom: "64px",
               }}
             >
-              — with love, {schoolName} ♡
+              — with love, BSIS 3 ♡
             </div>
           </div>
         </FadeIn>
@@ -220,6 +224,7 @@ export function ThankYouSection({ schoolName = "Class of 2026" }: { schoolName?:
                   <PolaroidFrame
                     src={photo.src}
                     alt={photo.alt}
+                    caption={photo.caption}
                     rotation={0}
                     width={photo.width}
                     imageHeight={photo.imageHeight}
