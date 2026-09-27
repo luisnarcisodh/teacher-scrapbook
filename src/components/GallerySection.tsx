@@ -5,6 +5,8 @@ const GALLERY_ITEMS = [
   {
     id: 1,
     src: "/src/assets/seventeen.jpg",
+    alt: "",
+    caption: "",
     rotation: -3,
     width: 260,
     imageHeight: 200,
@@ -12,6 +14,8 @@ const GALLERY_ITEMS = [
   {
     id: 2,
     src: "/src/assets/fifteen.jpg",
+    alt: "",
+    caption: "",
     rotation: 2.5,
     width: 220,
     imageHeight: 170,
@@ -19,6 +23,8 @@ const GALLERY_ITEMS = [
   {
     id: 3,
     src: "/src/assets/eight.jpg",
+    alt: "",
+    caption: "",
     rotation: -1.5,
     width: 300,
     imageHeight: 230,
@@ -26,6 +32,8 @@ const GALLERY_ITEMS = [
   {
     id: 4,
     src: "/src/assets/eighteen.jpg",
+    alt: "",
+    caption: "",
     rotation: 3,
     width: 230,
     imageHeight: 175,
@@ -33,6 +41,8 @@ const GALLERY_ITEMS = [
   {
     id: 5,
     src: "/src/assets/sixteen.jpg",
+    alt: "",
+    caption: "",
     rotation: -2,
     width: 240,
     imageHeight: 190,
@@ -115,6 +125,8 @@ export function GallerySection() {
               <motion.div whileHover={{ scale: 1.03, rotate: -1 }} transition={{ duration: 0.3 }}>
                 <PolaroidFrame
                   src={GALLERY_ITEMS[0].src}
+                  alt={GALLERY_ITEMS[0].alt}
+                  caption={GALLERY_ITEMS[0].caption}
                   rotation={GALLERY_ITEMS[0].rotation}
                   width={GALLERY_ITEMS[0].width}
                   imageHeight={GALLERY_ITEMS[0].imageHeight}
@@ -163,7 +175,6 @@ export function GallerySection() {
                   transform: "rotate(-2deg)",
                 }}
               >
-             
               </div>
             </motion.div>
           </FadeIn>
@@ -180,6 +191,8 @@ export function GallerySection() {
               <motion.div whileHover={{ scale: 1.03, rotate: 1 }} transition={{ duration: 0.3 }}>
                 <PolaroidFrame
                   src={GALLERY_ITEMS[1].src}
+                  alt={GALLERY_ITEMS[1].alt}
+                  caption={GALLERY_ITEMS[1].caption}
                   rotation={GALLERY_ITEMS[1].rotation}
                   width={GALLERY_ITEMS[1].width}
                   imageHeight={GALLERY_ITEMS[1].imageHeight}
@@ -212,6 +225,8 @@ export function GallerySection() {
               <motion.div whileHover={{ scale: 1.02, rotate: -0.5 }} transition={{ duration: 0.35 }}>
                 <PolaroidFrame
                   src={GALLERY_ITEMS[2].src}
+                  alt={GALLERY_ITEMS[2].alt}
+                  caption={GALLERY_ITEMS[2].caption}
                   rotation={GALLERY_ITEMS[2].rotation}
                   width={GALLERY_ITEMS[2].width}
                   imageHeight={GALLERY_ITEMS[2].imageHeight}
@@ -240,6 +255,8 @@ export function GallerySection() {
                 <motion.div whileHover={{ scale: 1.04 }} transition={{ duration: 0.3 }}>
                   <PolaroidFrame
                     src={GALLERY_ITEMS[3].src}
+                    alt={GALLERY_ITEMS[3].alt}
+                    caption={GALLERY_ITEMS[3].caption}
                     rotation={GALLERY_ITEMS[3].rotation}
                     width={GALLERY_ITEMS[3].width}
                     imageHeight={GALLERY_ITEMS[3].imageHeight}
@@ -268,6 +285,8 @@ export function GallerySection() {
                 <motion.div whileHover={{ scale: 1.04 }} transition={{ duration: 0.3 }}>
                   <PolaroidFrame
                     src={GALLERY_ITEMS[4].src}
+                    alt={GALLERY_ITEMS[4].alt}
+                    caption={GALLERY_ITEMS[4].caption}
                     rotation={GALLERY_ITEMS[4].rotation}
                     width={GALLERY_ITEMS[4].width}
                     imageHeight={GALLERY_ITEMS[4].imageHeight}
