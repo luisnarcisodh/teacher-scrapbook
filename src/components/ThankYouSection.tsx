@@ -4,8 +4,8 @@ import { GlassCard, PolaroidFrame, MaskingTape, FadeIn } from "./shared";
 const COLLAGE_PHOTOS = [
   {
     id: 1,
-    src: "/src/assets/four.jpg",
-    alt: "University lecture",
+    src: "/assets/four.jpg",
+    alt: "",
     caption: "",
     rotation: -4,
     width: 180,
@@ -13,8 +13,8 @@ const COLLAGE_PHOTOS = [
   },
   {
     id: 2,
-    src: "/src/assets/five.jpg",
-    alt: "Graduation ceremony",
+    src: "/assets/five.jpg",
+    alt: "",
     caption: "",
     rotation: 3,
     width: 200,
@@ -22,8 +22,8 @@ const COLLAGE_PHOTOS = [
   },
   {
     id: 3,
-    src: "/src/assets/six.jpg",
-    alt: "Students group photo",
+    src: "/assets/six.jpg",
+    alt: "",
     caption: "",
     rotation: -2,
     width: 190,
@@ -31,8 +31,8 @@ const COLLAGE_PHOTOS = [
   },
   {
     id: 4,
-    src: "/src/assets/ten.jpg",
-    alt: "Campus life",
+    src: "/assets/ten.jpg",
+    alt: "",
     caption: "",
     rotation: 4,
     width: 175,

@@ -21,7 +21,7 @@ function TeachersDayScrapbook({
   teacherName = "Ms. Diana Tejada",
   teacherSubject = "Christian Teachings",
   teacherPhoto = {
-    src: "/src/assets/one.jpg",
+    src: "/assets/one.jpg",
   },
   schoolName = "BSIS 3",
 }: {

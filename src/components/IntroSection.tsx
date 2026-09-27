@@ -61,8 +61,8 @@ export function IntroSection() {
 
               <div style={{ position: "relative", zIndex: 2 }}>
                 <PolaroidFrame
-                  src="/src/assets/thirteen.jpg"
-                  alt="Professor mentoring a student"
+                  src="/assets/thirteen.jpg"
+                  alt=""
                   caption="beyond the classroom"
                   date="Class of 2026"
                   rotation={-2.5}

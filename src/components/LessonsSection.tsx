@@ -181,8 +181,8 @@ export function LessonsSection() {
               >
                 <motion.div whileHover={{ scale: 1.03 }} transition={{ duration: 0.5 }}>
                   <ImageWithFallback
-                    src="/src/assets/seven.jpg"
-                    alt="Professor mentoring student"
+                    src="/assets/seven.jpg"
+                    alt=""
                     style={{
                       width: "100%",
                       height: "440px",

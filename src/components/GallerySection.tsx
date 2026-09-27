@@ -4,7 +4,7 @@ import { ImageWithFallback, PolaroidFrame, MaskingTape, FadeIn, SectionLabel } f
 const GALLERY_ITEMS = [
   {
     id: 1,
-    src: "/src/assets/seventeen.jpg",
+    src: "/assets/seventeen.jpg",
     alt: "",
     caption: "",
     rotation: -3,
@@ -13,7 +13,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 2,
-    src: "/src/assets/fifteen.jpg",
+    src: "/assets/fifteen.jpg",
     alt: "",
     caption: "",
     rotation: 2.5,
@@ -22,7 +22,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 3,
-    src: "/src/assets/eight.jpg",
+    src: "/assets/eight.jpg",
     alt: "",
     caption: "",
     rotation: -1.5,
@@ -31,7 +31,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 4,
-    src: "/src/assets/eighteen.jpg",
+    src: "/assets/eighteen.jpg",
     alt: "",
     caption: "",
     rotation: 3,
@@ -40,7 +40,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    src: "/src/assets/sixteen.jpg",
+    src: "/assets/sixteen.jpg",
     alt: "",
     caption: "",
     rotation: -2,
@@ -51,8 +51,8 @@ const GALLERY_ITEMS = [
 
 // Large editorial photo (non-polaroid)
 const LARGE_PHOTO = {
-  src: "/src/assets/nine.jpg",
-  alt: "University seminar discussion group",
+  src: "/assets/nine.jpg",
+  alt: "",
 };
 
 export function GallerySection() {

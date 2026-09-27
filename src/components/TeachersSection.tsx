@@ -18,7 +18,7 @@ interface TeacherProfileProps {
 export function TeachersSection({
   teacherName = "Ms. Diana Tejada",
   teacherSubject = "Christian Teachings",
-  teacherPhoto = "/src/assets/one.jpg",
+  teacherPhoto = "/assets/one.jpg",
   teacherBio = "For years, this extraordinary teacher has shaped the way we think, question, and grow. With patience, passion, and an unwavering belief in each student, every single lesson became something far greater than a lecture.",
   teacherQuote = "Ask better questions, and the world will reveal better answers.",
 }: TeacherProfileProps & { teacherBio?: string; teacherQuote?: string }) {
@@ -26,7 +26,7 @@ export function TeachersSection({
 
   const photoSrc = typeof teacherPhoto === "string"
     ? teacherPhoto
-    : teacherPhoto?.src ?? "/src/assets/three.jpg";
+    : teacherPhoto?.src ?? "/assets/three.jpg";
 
   return (
     <section

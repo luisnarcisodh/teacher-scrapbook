@@ -207,8 +207,8 @@ export function HeroSection({
                 }}
               >
                 <ImageWithFallback
-                  src= "/src/assets/three.jpg"
-                  alt="University lecture hall with teacher"
+                  src= "/assets/three.jpg"
+                  alt=""
                   style={{
                     width: "100%",
                     height: "360px",
